@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+    justify-content: center;
+  }
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+/* FORM BOX */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* background: grey; */
+}
+
+.container h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+.form__data {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.8rem;
+    border: 0.1rem solid ;
+    padding: 2rem;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+  }
+  
+label {
+    font-weight: bold;
+    color: white;
+}
+  
+input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 0.4rem;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s;
+}
+  
+.submit-button {
+    width: 100px;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+/* Hasil Cek */
+
+.hasil-cek {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Pesan */
+
+.pesan{
+    text-align: center;
+    padding: 20px;
+}
+
+.spinner {
+    margin: auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+  }
+  
+  .spinner > div {
+    background-color: black;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
+
+/* Footer */
+
+.footer__copy {
+    display: block;
+    margin-top: 7.2rem; /* 72 */
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}

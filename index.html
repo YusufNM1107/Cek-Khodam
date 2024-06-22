@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEK KHODAM</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Creepster Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="title">
+        <h2>Selamat Datang Di Website Cek Khodam</h2>
+        <h2>Kalian Bisa Cek Khodam Semau Kalian</h2>
+    </div>
+    <div class="container grid">
+        <div class="form__data">
+            <h2>Cek Khodam</h2>
+            <form onsubmit="generateRandomData(); return false;">
+                <!-- <label for="namaInput">NAMA</label> -->
+                <input type="text" id="namaInput" placeholder="Masukkan Nama Kalian">
+                <div class="button">
+                    <button type="submit" class="submit-button">CEK</button>
+                    <button type="reset" class="submit-button" onclick="resetForm()">RESET</button>
+                </div>
+            </form>
+            <div class="hasil_cek" id="hasilCek">
+                
+            </div>
+        </div>
+    </div>
+    <div class="pesan">
+        <h2>Silahkan dukung Developer ini agar terus berkarya</h2>
+        <h2><a href="https://saweria.co/Cupzz">SAWERIA</a></h2>
+    </div>
+    <footer class="footer__copy"> &copy; Yusuf NM </footer>
+</body>
+
+<script src="script/main.js"></script>
+</html>
